@@ -42,7 +42,7 @@ html{font-size:200%; font-family: monospace;}
 /* ---------------------------------- NavBar ---------------------------------- */
 /* UNUSED */
 li {display:inline;}
-.navbar{list-style: none; display:inline;} 
+.navbar{list-style: none; display:inline;}  
 
 /* ------------------------------- Image Sizes ----------------------------- */
 .image33{width:100%}

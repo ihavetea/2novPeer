@@ -10,6 +10,17 @@
    width="568.11902"
    id="svg64"
    version="1.1">
+     <style>
+.yo{
+animation: fadein 2s forwards;
+opacity: 0;   
+}
+        
+@keyframes fadein {
+to {
+opacity: 1;
+}
+</style>
   <metadata
      id="metadata70">
     <rdf:RDF>
@@ -22,26 +33,30 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+
+
+
   <defs
      id="defs68" />
-  <circle
+  <circle class="yo"
      r="250"
      cy="284.05951"
      cx="284.05951"
      id="path92"
      style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:68.1190033;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <rect
+  <rect class="yo"
      y="187.8252"
      x="268.71783"
      height="25"
      width="25"
      id="rect899"
      style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:68.1190033;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  <rect
+  <rect class="yo"
      y="350.63623"
      x="268.95422"
      height="25"
      width="25"
      id="rect899-3"
      style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:68.1190033;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+
 </svg>
