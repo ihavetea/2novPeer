@@ -2,7 +2,7 @@
 
 body{margin: 0px;}
 html{font-size:200%; font-family: monospace;}
-
+.flexwrap{flex-wrap: wrap;}
 /* ----------------------------- Grids & Display ------------------------------*/
 
 /*Header*/
@@ -25,6 +25,8 @@ html{font-size:200%; font-family: monospace;}
 
 .aicenter {align-items: center;}
 
+.flexwrap{flex-wrap: wrap;}
+
 /* Height & Widths */
 .height100{height: 100%;}
 .width30{width:30%;}
@@ -45,7 +47,7 @@ li {display:inline;}
 .navbar{list-style: none; display:inline;}  
 
 /* ------------------------------- Image Sizes ----------------------------- */
-.image33{width:100%}
+.image33{width:33.33%}
 
 /* ---------------------------------- Colors ---------------------------------- */
 
