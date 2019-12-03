@@ -2,7 +2,7 @@
 
 body{margin: 0px;}
 html{font-size:200%; font-family: monospace;}
-.flexwrap{flex-wrap: wrap;}
+
 /* ----------------------------- Grids & Display ------------------------------*/
 
 /*Header*/
@@ -40,7 +40,6 @@ html{font-size:200%; font-family: monospace;}
 .lrpadding{padding-left: 40px; padding-right: 40px;}
 .lrmargin{margin-left: 15px; margin-right: 15px;}
 
-
 /* ---------------------------------- NavBar ---------------------------------- */
 /* UNUSED */
 li {display:inline;}
@@ -67,12 +66,12 @@ li {display:inline;}
 .gradientmenu{background-image: url("../IMG/gradient.svg"); border-radius: 24%;}
 .bchtml{background-image: url("../IMG/html.svg"); background-repeat: no-repeat;}
 .bccircuit{background-image: url("../IMG/circuit.svg");}
+
 .bclaugh1{background-image: url("../IMG/laugh1.jpeg"); background-size: 100%; border-radius: 99px;}
 .bclaugh2{background-image: url("../IMG/laugh2.jpeg"); background-size: 100%; border-radius: 99px;}
 .bclaugh3{background-image: url("../IMG/laugh3.jpg"); background-size: 100%; border-radius: 99px;}
 .bclaugh4{background-image: url("../IMG/laugh4.jpeg"); background-size: 100%; border-radius: 99px;}
 .bclaugh5{background-image: url("../IMG/laugh5.jpg"); background-size: 100%; border-radius: 99px;}
-
 
 /* Text Colors */
 .textwhite {color: white;}
@@ -101,7 +100,7 @@ a{color:white; text-decoration: none;}
 #competences {position: relative; height: 30%;}
 
 
-/* Background meter is grey */
+/* PROGRESS BAR SIZE */
 .meter {height: 16px; width: 200px; padding: 5px;}
 
 /* Progress Bar 1 */
