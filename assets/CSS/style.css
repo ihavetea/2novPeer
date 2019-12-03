@@ -4,13 +4,20 @@ body{margin: 0px;}
 html{font-size:200%; font-family: monospace;}
 
 /* ----------------------------- Grids & Display ------------------------------*/
+
+/*Header*/
+#intro{padding-top:5%;padding-bottom:5%;}
+
+/* Display Type */
 .container{display: flex;}
 .dgrid {display: grid;}
 .dinline{display: inline;}
 
+/* Flex Direction */
 .row {flex-direction: row;}
 .column {flex-direction: column;}
 
+/* Justify Contents */
 .jccenter {justify-content: center;}
 .jcsb {justify-content: space-between;}
 .jcsa {justify-content: space-around;}
@@ -18,9 +25,13 @@ html{font-size:200%; font-family: monospace;}
 
 .aicenter {align-items: center;}
 
+/* Height & Widths */
 .height100{height: 100%;}
 .width30{width:30%;}
+.width20{width:20%;}
+.width100{width:100%;}
 
+/* Paddin & Margin */ 
 .nopadding{padding: 0%;}
 .nomargin{margin:0%;}
 
@@ -29,8 +40,9 @@ html{font-size:200%; font-family: monospace;}
 
 
 /* ---------------------------------- NavBar ---------------------------------- */
+/* UNUSED */
 li {display:inline;}
-.navbar{list-style: none; display:inline;}
+.navbar{list-style: none; display:inline;} 
 
 /* ------------------------------- Image Sizes ----------------------------- */
 .image33{width:100%}
@@ -45,13 +57,22 @@ li {display:inline;}
 .bcblack{background-color: black;}
 .bcyellow{background-color:yellow;}
 .bccyan{background-color: #4FB0AB;}
-.bcgreen{background-color: green;}
+.bcgreen{background-color: #A1C547;}
 .bcbluebis{background-color: #4A5664;}
 
+/*Background Images */
+.bcnorepeat{background-repeat: no-repeat;}
 .gradientmenu{background-image: url("../IMG/gradient.svg"); border-radius: 24%;}
 .bchtml{background-image: url("../IMG/html.svg"); background-repeat: no-repeat;}
 .bccircuit{background-image: url("../IMG/circuit.svg");}
+.bclaugh1{background-image: url("../IMG/laugh1.jpeg"); background-size: 100%; border-radius: 99px;}
+.bclaugh2{background-image: url("../IMG/laugh2.jpeg"); background-size: 100%; border-radius: 99px;}
+.bclaugh3{background-image: url("../IMG/laugh3.jpg"); background-size: 100%; border-radius: 99px;}
+.bclaugh4{background-image: url("../IMG/laugh4.jpeg"); background-size: 100%; border-radius: 99px;}
+.bclaugh5{background-image: url("../IMG/laugh5.jpg"); background-size: 100%; border-radius: 99px;}
 
+
+/* Text Colors */
 .textwhite {color: white;}
 .textblack {color: black;}
 .textbisque{color: bisque;}
@@ -60,6 +81,7 @@ li {display:inline;}
 .textpink{color:#D26466;}
 
 /* Text List Color */
+/* UNUSED */
 a{color:white; text-decoration: none;}
 
 /* Text Size */
@@ -77,51 +99,25 @@ a{color:white; text-decoration: none;}
 #competences {position: relative; height: 30%;}
 
 
-/* Container for the parent DIV progress bars */
-.progresscontainer {width: 30%; height: 100%;}
-
 /* Background meter is grey */
-.meter {height: 5px; width: 100px; padding: 5px;}
+.meter {height: 16px; width: 200px; padding: 5px;}
 
 /* Progress Bar 1 */
-.one {animation: progress-1 3s forwards;}
+.one {animation: progress-1 3s infinite;}
 @keyframes progress-1 {0% {width: 0;} 100% {width: 15%;}}
 
 /* Progress Bar 2 */
-.two {animation: progress-2 3s forwards;}
+.two {animation: progress-2 3s infinite;}
 @keyframes progress-2 {0% {width: 0;} 100% {width: 50%;}}
 
 /* Progress Bar 3 */
-.three {animation: progress-3 3s forwards;}
+.three {animation: progress-3 3s infinite;}
 @keyframes progress-3 {0% {width: 0;} 100% {width: 75%;}}
 
 /* Progress Bar 4 */
-.four {animation: progress-4 3s forwards;}
-@keyframes progress-4 {0% {width: 0;} 100% {width: 50%;}}
+.four {animation: progress-4 3s infinite;}
+@keyframes progress-4 {0% {width: 0;} 100% {width: 40%;}}
 
 /* Progress Bar 5 */
-.five {animation: progress-5 3s forwards;}
-@keyframes progress-5 {0% {width: 0;} 100% {width: 50%;}}
-
-.pourcent {
-    font-size: 40px;
-    align-items: center;
-}
-
-
-
-/*Bannière*/
-#banniere{
-	height: 10%;
-}
-
-/*Header*/
-#intro{
-	padding-top:5%;
-	padding-bottom:5%;
-}
-
-/* Image sizes */
-#img1{width:33%}
-#img2{width:33%}
-#img3{width:33%}
+.five {animation: progress-5 3s infinite;}
+@keyframes progress-5 {0% {width: 0;} 100% {width: 90%;}}
